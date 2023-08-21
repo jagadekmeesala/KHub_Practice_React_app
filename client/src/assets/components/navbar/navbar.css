@@ -1,0 +1,45 @@
+/* Navbar Container */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Brand Text */
+  .brand {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #ff6600; /* Change this color to your desired hover color */
+  }
+  
