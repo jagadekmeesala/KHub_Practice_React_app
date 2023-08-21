@@ -1,2 +1,2 @@
 # KHub_Practice_React_app
-Senior Dev - Jagadek Junior Dev - Benayram
+Senior Dev - Jagadek Junior Dev - Benayaram
