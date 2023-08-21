@@ -3,12 +3,14 @@ import './navbar.css';
 
 function Navbar() {
   return (
-    <nav className="navbar blue">
+    <nav className="navbar">
       <div className="navbar-container">
         <div className="brand">K-Hub React Practice App</div>
         <div className="nav-blocks">
-        <div className="nav-block blue"></div>
-        <div className="nav-block navy"></div>
+        <div className="blue">
+        <div className="navy"></div>
+        </div>
+        
       </div>
       </div>
     </nav>
