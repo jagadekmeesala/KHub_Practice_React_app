@@ -1,34 +1,35 @@
+/* Footer */
 .footer {
-    background-color: #333;
-    color: white;
-    padding: 20px 0;
-  }
-  
-  .footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
-  p {
-    font-size: 14px;
-  }
-  
-  .social-icons {
-    display: flex;
-    align-items: center;
-  }
-  
-  .social-icons a {
-    margin-right: 15px;
-    text-decoration: none;
-  }
-  
-  .social-icons img {
-    width: 30px;
-    height: 30px;
-  }
-  
+  display: flex;
+  flex-direction: column; /* Stack sections vertically */
+  background-color: #4B6488; /* Blue background */
+  color: white;
+ padding-top: 0px;
+ padding-bottom: 0px;
+ text-align: center;
+}
+
+.gold-section {
+  background-color: #2D3B51; /* Gold background */
+  display: flex;
+  justify-content: flex-end; /* Align content to the right */
+  padding: 10px; /* Add padding for spacing */
+}
+
+
+.github-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.logo-section {
+  display: flex;
+  justify-content: right; /* Align content to the center */
+  padding: 10px; /* Add padding for spacing */
+}
+
+/* Style for the copyright text */
+.copyright {
+  font-size: 14px;
+  text-align: center;
+}

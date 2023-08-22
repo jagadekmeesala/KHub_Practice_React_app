@@ -1,19 +1,21 @@
 import React from 'react';
-import '../footer/footer.css'; // Make sure to import the corresponding CSS file
+import './footer.css'; // Create this CSS file for styling
 
-const Footer = () => {
+function Footer() {
   return (
     <footer className="footer">
-      <div className="footer-container">
-        <p>&copy; 2023 Your Company. All rights reserved.</p>
-        <div className="social-icons">
-           {/*<a href="#"><img src="path-to-icon1.png" alt="Icon 1" /></a>
-          <a href="#"><img src="path-to-icon2.png" alt="Icon 2" /></a>
-          */}
+      <div className="logo-section">
+        <a href="https://github.com/your-github-link" className="github-link">
+          <img src="https://pngimg.com/uploads/github/github_PNG40.png" alt="GitHub Logo" className="github-logo" />
+        </a>
+      </div>
+      <div className="gold-section">
+      <div className="copyright">
+          <p>2023 © Copyright Raj Reddy Center for Technology and Society. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
   );
-};
+}
 
 export default Footer;
