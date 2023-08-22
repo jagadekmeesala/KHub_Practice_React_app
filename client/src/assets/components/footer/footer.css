@@ -1,21 +1,21 @@
 /* Footer */
 .footer {
   display: flex;
-  flex-direction: column; /* Stack sections vertically */
+  flex-direction: column;
   background-color: #4B6488; /* Blue background */
   color: white;
- padding-top: 0px;
- padding-bottom: 0px;
- text-align: center;
+  padding: 0px 0;
+  text-align: center;
 }
 
 .gold-section {
   background-color: #2D3B51; /* Gold background */
   display: flex;
-  justify-content: flex-end; /* Align content to the right */
+  flex-direction: column-reverse;
+  justify-content: space-between; /* Align content to the right and left */
+  align-items: center; /* Center vertically */
   padding: 10px; /* Add padding for spacing */
 }
-
 
 .github-logo {
   width: 30px;
@@ -24,12 +24,13 @@
 
 .logo-section {
   display: flex;
-  justify-content: right; /* Align content to the center */
+  align-items: center; /* Center vertically */
+  margin-left: auto; /* Push the logo to the right */
   padding: 10px; /* Add padding for spacing */
 }
 
 /* Style for the copyright text */
-.copyright {
+.copy-right {
   font-size: 14px;
-  text-align: center;
+  margin: 0 auto; /* Center the text horizontally */
 }
