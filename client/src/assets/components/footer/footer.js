@@ -4,8 +4,9 @@ import './footer.css'; // Create this CSS file for styling
 function Footer() {
   return (
     <footer className="footer">
+
       <div className="logo-section">
-        <a href="https://github.com/your-github-link" className="github-link">
+        <a href="https://github.com/benayaram" className="github-link">
           <img src="https://pngimg.com/uploads/github/github_PNG40.png" alt="GitHub Logo" className="github-logo" />
         </a>
       </div>
