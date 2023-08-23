@@ -1,0 +1,22 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+
+      margin: 0;
+      padding: 0;
+      background-image: url('https://github.com/jagadekmeesala/KHub_Practice_React_app/blob/main/docs/images/UI-mock-up.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+  
+  
+  /* Add more global styles as needed */
+  
