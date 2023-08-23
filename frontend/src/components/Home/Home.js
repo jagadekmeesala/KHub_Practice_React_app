@@ -33,10 +33,8 @@ function Home() {
             <div className="card-text">
               <h2>About the Data</h2>
             </div>
-
           </div>
           <p>Write ~150 to 200 word introduction to your chosen data set</p>
-
         </div>
       </div>
     </div>
