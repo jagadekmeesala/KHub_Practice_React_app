@@ -1,20 +1,12 @@
 import React from 'react';
-import './navbar.css';
+import './navbar.css'
 
-function Navbar() {
+const Navbar = () => {
   return (
-    <nav className="navbar">
-      <div className="navbar-container">
-        <div className="brand">K-Hub React Practice App</div>
-        <div className="nav-blocks">
-        <div className="blue">
-        <div className="navy"></div>
-        </div>
-        
-      </div>
-      </div>
+    <nav className="Navbar">
+      <div className="navcontent"><h1>K-Hub React Practice App</h1></div>
     </nav>
   );
-}
+};
 
 export default Navbar;

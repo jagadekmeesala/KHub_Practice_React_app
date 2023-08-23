@@ -1,42 +1,15 @@
-/* Navbar */
-.navbar {
-  width: 100%;
-  height: 70px;
-  display: flex;
-  background-color: #6789BB;
-  display: flex;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  flex-direction: row;
+.Navbar {
+
+    color: white;
+    padding: 1rem;
+    display: flex; /* Make the navbar a flex container */
+    justify-content: space-between; /* Spread content evenly */
+    align-items: center; /* Center vertically */
+    position: relative; /* Position for the colored sections */
+    height: 30px; /* Set navbar height */
+    background: linear-gradient(to right, #6789BB 60%,#4B6488 35%, #4B6488 85%,#2D3B51 55%);
   
-}
-
-.navbar-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  max-width: 1920px;
-}
-
-.brand {
-  font-size: 28px;
-  font-weight: bold;
-  color: #fff;
-  margin-left: 30px;
-  margin-top: 20px;
-  margin-bottom: 22px;
-}
-
-.blue {
-  background-color: #2D3B51;
-  width: 400px;
-  height: 70px;
-}
-.navy {
-  background-color: #4B6488;
-  width: 200px;
-  height: 70px;
-  opacity: 50px;
-}
+      top: 0;
+      width: auto;
+  
+  }
