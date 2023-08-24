@@ -1,4 +1,4 @@
-/* Home.css (Complete) */
+/* Home.css (Updated) */
 
 /* Base styles for the home page */
 .home-page {
@@ -17,20 +17,23 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* For smaller screens */
+  grid-template-columns: repeat(2, 1fr);
+  /* For smaller screens */
   gap: 20px;
   margin-top: 20px;
   width: 100%;
 }
 
 .grid-item {
-  min-width: 160px;
-  min-height: 160px; /* Full width of the grid items on smaller screens */
+  min-width: 260px;
+  min-height: 260px;
+  /* Full width of the grid items on smaller screens */
   background-color: #B56464;
   border-radius: 5px;
   margin-bottom: 20px;
   box-sizing: border-box;
-  overflow: hidden; /* Prevents images from overflowing */
+  overflow: hidden;
+  /* Prevents images from overflowing */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,11 +45,19 @@
   display: block;
 }
 
+.grid-description {
+  padding: 20px;
+  margin-top: 40px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
 .right-content {
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center content horizontally */
+  align-items: center;
+  /* Center content horizontally */
   padding: 20px;
   margin-top: 20px;
   box-sizing: border-box;
@@ -86,12 +97,14 @@
 
   .left-content {
     display: flex;
-    justify-content: center; /* Center the grid container horizontally */
+    justify-content: center;
+    /* Center the grid container horizontally */
     flex-direction: column;
   }
 
   .grid-container {
-    grid-template-columns: repeat(3, 1fr); /* For larger screens */
+    grid-template-columns: repeat(3, 1fr);
+    /* For larger screens */
     gap: 20px;
     margin-top: 0;
     width: calc(70% - 20px);
@@ -104,7 +117,8 @@
   .right-content {
     margin-top: 0;
     margin-left: 20px;
-    margin-right: 20px; /* Add margin to the right side */
+    margin-right: 20px;
+    /* Add margin to the right side */
     width: 30%;
   }
 }
@@ -118,7 +132,8 @@
   }
 
   .grid-container {
-    grid-template-columns: repeat(1, 1fr); /* For smaller screens */
+    grid-template-columns: repeat(1, 1fr);
+    /* For smaller screens */
     gap: 20px;
     margin-top: 20px;
     width: 100%;
@@ -127,6 +142,7 @@
   .right-content {
     width: 100%;
     margin-top: 20px;
-    margin-right: 0; /* Reset the margin on the right side */
+    margin-right: 0;
+    /* Reset the margin on the right side */
   }
 }
