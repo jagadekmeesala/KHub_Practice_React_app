@@ -7,12 +7,12 @@ function Home() {
       <div className="left-content">
         <div className="grid-container">
           {/* Grid items here */}
-          <div className="grid-item">Item 1</div>
-          <div className="grid-item">Item 2</div>
+          <div className="grid-item">Item 1 - Jagadek meesala</div>
+          <div className="grid-item">Item 2- Benayaram</div>
           <div className="grid-item">Item 3</div>
           <div className="grid-item">Item 4</div>
           <div className="grid-item">Item 5</div>
-          <div className="grid-item">Item 6</div>
+          <div className="grid-item">Item 6 - SomeSbody else</div>
         </div>
       </div>
       <div className="right-content">
