@@ -42,7 +42,7 @@
 }
 
 .card {
-  width: 150%;
+  width: auto;
   height: 460px;
   border-radius: 16px;
   background: #7D8B9F;
