@@ -7,22 +7,22 @@ function Home() {
       <div className="left-content">
         <div className="grid-container">
           <div className="grid-item">
-            <img src="" alt="Image 1" />
+            <img src="" alt="Mean" />
           </div>
           <div className="grid-item">
-            <img src="" alt="Image 2" />
+            <img src="" alt="Median" />
           </div>
           <div className="grid-item">
-            <img src="" alt="Image 3" />
+            <img src="" alt="Mode" />
           </div>
           <div className="grid-item">
-            <img src="" alt="Image 4" />
+            <img src="" alt="SD" />
           </div>
           <div className="grid-item">
-            <img src="" alt="Image 5" />
+            <img src="" alt="Max" />
           </div>
           <div className="grid-item">
-            <img src="" alt="Image 6" />
+            <img src="" alt="Min" />
           </div>
         </div>
       </div>
