@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css'; 
 import Navbar from './components/navbar/navbar';
-import Home from './components/Home/Home';
+import Home from './pages/Home/Home';
 import Footer from './components/footer/footer';
 
 function App() {
