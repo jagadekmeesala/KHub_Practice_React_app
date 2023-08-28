@@ -4,8 +4,9 @@
   flex-direction: column;
   background-color: #4B6488; /* Blue background */
   color: white;
-  padding: 0px 0;
+  padding: 0;
   text-align: center;
+  width: 100%; /* Make the footer span the full width of the screen */
 }
 
 .gold-section {
