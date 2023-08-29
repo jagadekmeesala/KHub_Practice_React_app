@@ -1,77 +1,92 @@
+/* Layout Container */
 .layout-container {
-    text-align: center;
-    display: flex;
-    height: 100vh;
-    flex-direction: row;
-    flex-wrap: wrap; 
-  }
-  
-  .left-half {
-    /* flex: 1; */
-    /* display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr); 
-    gap: 18px; */
-    width: 60vw;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  
-  .box {
-    width: 200px;
-    text-align: center;
-    padding: 10px;
-    border: 7px solid rgb(178, 177, 177);
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(175, 75, 75);
-    height: 6.5cm;
-    margin: 20px;
-  }
-  
-  .right-half {
-    flex: 1;
-    padding: 20px; /* Add padding to the right side */
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 40vw;
-    margin: -15px 20px;
-    
-  }
-  
-  .textarea {
-    width: 100%;
-    height: 80%;
-    border-radius: 20px;
-    resize: none;
-    padding: 10px;
-    background-color: rgba(133, 135, 168, 0.998);
-    color: aliceblue;
-    text-align: left;
-    font-weight: 700;
-  }
-  
-  .header {
-    background-color: #c0a1d5;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  .footer {
-    background-color: #c0a1d5;
-    padding: 10px;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  }
-  /* ... (your existing CSS code) */
-  
-  .chart-container {
-    margin-top: 10px;
-  }
+  text-align: center;
+  display: flex;
+  height: 100vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust as needed */
+}
+
+/* Left Half */
+.left-half {
+  width: 60%; /* Adjust as needed */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Box Styles */
+.box {
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+  border: 7px solid rgb(178, 177, 177);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(175, 75, 75);
+  height: 6.5cm;
+  margin: 20px;
+}
+
+/* Right Half */
+.right-half {
+  width: 35%; /* Adjust as needed */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px;
+}
+
+/* Textarea Styles */
+.textarea {
+  width: 100%;
+  height: 80%;
+  border-radius: 20px;
+  resize: none;
+  padding: 10px;
+  background-color: rgba(133, 135, 168, 0.998);
+  color: aliceblue;
+  text-align: left;
+  font-weight: 700;
+}
+
+/* Footer Styles */
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #4B6488;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.gold-section {
+  background-color: #2D3B51;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.github-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  padding: 10px;
+}
+
+.copy-right {
+  font-size: 14px;
+  margin: 0 auto;
+}

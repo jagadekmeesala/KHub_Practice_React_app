@@ -1,13 +1,14 @@
 /* Footer */
 .footer {
-  display: flex;
-  flex-direction: column;
   background-color: #4B6488; /* Blue background */
   color: white;
-  padding: 0px 0;
+  padding: 10px 0;
   text-align: center;
-  width:100%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
+
 
 .gold-section {
   background-color: #2D3B51; /* Gold background */

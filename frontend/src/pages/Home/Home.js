@@ -11,7 +11,6 @@ const Home = () => {
     fetch("http://127.0.0.1:5000/api/stats", { method: "GET" })
       .then((response) => response.json())
       .then((data) => {
-        // console.log(data)
         setStatistics(data);
       })
       .catch((err) => {
@@ -26,9 +25,9 @@ const Home = () => {
       name: attribute,
       value: stats[attribute],
     }));
-    
+
     const customColorRGB = 'rgb(255, 165, 0)';
-    
+
     return (
       <div className="box" key={statistic}>
         <h3>{statistic}</h3>
@@ -45,21 +44,34 @@ const Home = () => {
   };
 
   return (
-    <div className="layout-container">
-      <div className="left-half">
-        {Object.keys(statistics).map((statistic) => renderGradientBar(statistic))}
+    <div>
+      <div className="layout-container">
+        <div className="left-half">
+          {Object.keys(statistics).map((statistic) =>
+            renderGradientBar(statistic)
+          )}
+        </div>
+        <div className="right-half">
+          <p className="textarea" placeholder="Enter up to 150 words">
+            <FontAwesomeIcon icon={faDatabase} size="2x" />
+            About the data
+          </p>
+        </div>
       </div>
-      <div className="right-half">
-        
-        
-        
-        <p className="textarea" placeholder="Enter up to 150 words">
-          
-          <FontAwesomeIcon icon={faDatabase} size="2x" />
-
-          About the data
-        </p>
-      </div>
+      <footer className="footer">
+        <div className="gold-section">
+          <div className="logo-section">
+            <img
+              className="github-logo"
+              src="/path/to/github-logo.png"
+              alt="GitHub Logo"
+            />
+            <p className="copy-right">
+              © 2023 Your Company Name. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };
