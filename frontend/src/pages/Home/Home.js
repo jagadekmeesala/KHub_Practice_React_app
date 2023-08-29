@@ -13,6 +13,7 @@ const Home = () => {
       .then((data) => {
         setStatistics(data);
       })
+      
       .catch((err) => {
         console.log(err.message);
       });
@@ -26,7 +27,7 @@ const Home = () => {
       value: stats[attribute],
     }));
 
-    const customColorRGB = 'rgb(255, 165, 0)';
+    const customColorRGB = ' rgb(217, 217, 217)';
 
     return (
       <div className="box" key={statistic}>
@@ -58,20 +59,7 @@ const Home = () => {
           </p>
         </div>
       </div>
-      <footer className="footer">
-        <div className="gold-section">
-          <div className="logo-section">
-            <img
-              className="github-logo"
-              src="/path/to/github-logo.png"
-              alt="GitHub Logo"
-            />
-            <p className="copy-right">
-              © 2023 Your Company Name. All rights reserved.
-            </p>
-          </div>
-        </div>
-      </footer>
+      
     </div>
   );
 };
