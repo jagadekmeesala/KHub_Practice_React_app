@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <Home />
       {/* Add other components/pages as needed */}
-      <Footer />
+      <Footer/>
     </div>
   );
 }

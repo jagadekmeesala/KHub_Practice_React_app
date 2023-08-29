@@ -13,7 +13,6 @@ const Home = () => {
       .then((data) => {
         setStatistics(data);
       })
-      
       .catch((err) => {
         console.log(err.message);
       });
@@ -53,13 +52,17 @@ const Home = () => {
           )}
         </div>
         <div className="right-half">
-          <p className="textarea" placeholder="Enter up to 150 words">
-            <FontAwesomeIcon icon={faDatabase} size="2x" />
-            About the data
-          </p>
+          <div className="card">
+            <div className="card-content">
+              <FontAwesomeIcon className="card-icon" icon={faDatabase} />
+              <h2 className="card-text">About the Data</h2>
+            </div>
+            <p className="card-paragraph">
+              This section provides information about the data and its analysis.
+            </p>
+          </div>
         </div>
       </div>
-      
     </div>
   );
 };
