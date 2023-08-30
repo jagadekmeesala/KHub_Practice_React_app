@@ -57,9 +57,16 @@ const Home = () => {
               <FontAwesomeIcon className="card-icon" icon={faDatabase} />
               <h2 className="card-text">About the Data</h2>
             </div>
+            <div className="card-scrollable">
             <p className="card-paragraph">
-              This section provides information about the data and its analysis.
+              Welcome to the captivating world of statistical visualization centered around Dukes University, an esteemed institution nestled amidst the enchanting landscapes of North California, USA. This meticulously curated dataset offers a profound glimpse into the lives of students, their academic trajectories, and the intricate facets of their capabilities. At its core, the dataset encompasses pivotal attributes: GPA, study week, sleepnight, outing, and gender.</p>
+
+
+            <p className="card-paragraph">Incorporating gender into the equation adds a layer of complexity, enabling us to discern potential variations in academic accomplishments. This visualization not only provides insights into students' lives but also underscores the university's commitment to fostering an environment where diverse attributes converge to shape educational experiences.</p>
+
+            <p className="card-paragraph">As the data comes alive through charts and graphs, we gain a holistic comprehension of the students' journey, enriching our perception of the myriad factors that mold their academic voyage at Dukes University.
             </p>
+            </div>
           </div>
         </div>
       </div>

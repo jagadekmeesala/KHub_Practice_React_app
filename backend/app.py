@@ -38,16 +38,16 @@ def json_default_handler(o):
 
 @app.route('/api/stats', methods=['GET'])
 def get_statistics():
-    # Fetch the data from the MongoDB collection
+    
     data = list(collection.find())
 
-    # Extract attribute values for analysis
+    
     gpa = [student['gpa'] for student in data]
     studyweek = [student['studyweek'] for student in data]
     sleepnight = [student['sleepnight'] for student in data]
     out = [student['out'] for student in data]
     
-    # Calculate statistical measures
+    
     stats_data = {
         'Mean': {
             'gpa': np.mean(gpa),
