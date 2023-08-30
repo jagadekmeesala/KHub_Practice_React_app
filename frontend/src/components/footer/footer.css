@@ -1,6 +1,6 @@
 /* Footer */
 .footer {
-  background-color: #4B6488; /* Blue background */
+  background-color: #4B6488;
   color: white;
   text-align: center;
   width: 100%;
@@ -25,12 +25,11 @@
 .logo-section {
   display: flex;
   flex-direction: row-reverse;
-  align-items: center; /* Center vertically */
-  margin-left: auto; /* Push the logo to the right */
+  align-items: center;
+  margin-left: auto;
 }
 
-/* Style for the copyright text */
 .copy-right {
   font-size: 14px;
-  margin: 0 auto; /* Center the text horizontally */
+  margin: 0 auto;
 }

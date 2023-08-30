@@ -14,8 +14,6 @@ mongo_client = MongoClient('mongodb://localhost:27017')
 
 db = mongo_client['Aug_Task_K_Hub']
 collection = db['Practice react app']
-
-# Read the CSV file into a DataFrame
 dp = pd.read_csv("Duke_Students_gpa.csv")
 
 # Convert the DataFrame to a list of dictionaries

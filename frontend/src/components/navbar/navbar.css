@@ -1,20 +1,17 @@
 /* Navbar.css */
-
 .Navbar {
   color: white;
   padding: 1rem;
-  display: flex; /* Make the navbar a flex container */
-  justify-content: flex-start; /* Align content to the left */
-  align-items: center; /* Center vertically */
-  position: fixed; /* Position fixed to stay at the top */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: fixed;
   top: 0;
-  width: 100%; /* Navbar width is 100% of the viewport */
+  width: 100%;
   background: linear-gradient(to right, #6789BB 60%, #4B6488 35%, #4B6488 85%, #2D3B51 55%);
-  z-index: 1000; /* Ensure the navbar is above other content */
+  z-index: 1000;
 }
 
 .navcontent {
-  margin-left: 40px; /* Add left margin for spacing */
+  margin-left: 40px;
 }
-
-/* Add more styles as needed */

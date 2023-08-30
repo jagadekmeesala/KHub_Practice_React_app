@@ -9,7 +9,6 @@ function App() {
     <div className="app">
       <Navbar />
       <Home />
-      {/* Add other components/pages as needed */}
       <Footer/>
     </div>
   );
