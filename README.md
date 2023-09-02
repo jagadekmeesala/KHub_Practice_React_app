@@ -35,6 +35,8 @@ The folder structure is as follows
 ├── README.md
 └── .gitignore
 ```
+
+## Installations
 Initially navigate to the frontend folder and open the terminal using ``` ctrl + shift + ` ``` in vs code or click on new terminal
 Type ``` cd Frontend ```
 It will navigate to the frontend. Then type ``` npm install ```
