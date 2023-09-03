@@ -57,7 +57,8 @@ Next in the folder named Pages, we have written Home.js and Home.css in Home fol
 ![WhatsApp Image 2023-09-03 at 15 56 28](https://github.com/jagadekmeesala/KHub_Practice_React_app/assets/85881386/4bdc674a-f573-4e14-aa96-048835951dba)
 
 
-This is the frontend part that we have worked on
+We run the frontend part using the command ``` npm start ``` 
+This will be the output that has to be displayed on running the command.
 
 ![WhatsApp Image 2023-09-03 at 15 58 32](https://github.com/jagadekmeesala/KHub_Practice_React_app/assets/85881386/e134f3f5-1608-473a-af4e-a53d14edc9e2)
 
@@ -75,7 +76,7 @@ Once we run the backend part using command ``` python app.py ```
 
 This is the output of backend
 
-Backend screenshot output ikkada
+![WhatsApp Image 2023-09-03 at 16 45 39](https://github.com/jagadekmeesala/KHub_Practice_React_app/assets/85881386/e76df455-90fe-454f-b256-ec742f15bbcb)
 
 
 ### *Dataset*
