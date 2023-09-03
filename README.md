@@ -45,21 +45,23 @@ It will navigate to the frontend. Then type ``` npm install ```
 The necessary files and node modules will be installed.
 
    ### Frontned and Backend Installations
+![WhatsApp Image 2023-09-03 at 16 16 57](https://github.com/jagadekmeesala/KHub_Practice_React_app/assets/85881386/68de13a7-6189-4810-b2a0-c6ce853f467f)
 
 ## Frontend
 Intially we have set up the folder structure as per the requirements
 Then we have edited the components folder and have written Navbar and Footer code
 Both the codes have js and css 
 
-components Folder screenshot ikkada
+![WhatsApp Image 2023-09-03 at 15 55 56](https://github.com/jagadekmeesala/KHub_Practice_React_app/assets/85881386/2b12af02-afca-4e5d-8a88-0e250a0232c7)
+
 Next in the folder named Pages, we have written Home.js and Home.css in Home folder that resides in Pages folder.
 
-pages folder Screenshot ikkada
+![WhatsApp Image 2023-09-03 at 15 56 28](https://github.com/jagadekmeesala/KHub_Practice_React_app/assets/85881386/4bdc674a-f573-4e14-aa96-048835951dba)
+
 
 This is the frontend part that we have worked on
 
-Frontend output screenshot ikkada
-
+![WhatsApp Image 2023-09-03 at 15 58 32](https://github.com/jagadekmeesala/KHub_Practice_React_app/assets/85881386/e134f3f5-1608-473a-af4e-a53d14edc9e2)
 
 ## Backend
 For backend we have used *MongoDB* as Database and *Pymongo*
@@ -68,11 +70,13 @@ For backend we have used *MongoDB* as Database and *Pymongo*
 
 We have written app.py code
 
-App.py screenshot ikkada
+![code](https://github.com/jagadekmeesala/KHub_Practice_React_app/assets/85881386/1176ce44-6ee8-454b-b951-fdba2d654e5f)
+
+![WhatsApp Image 2023-09-03 at 16 12 25](https://github.com/jagadekmeesala/KHub_Practice_React_app/assets/85881386/db4b7593-5dfb-4a07-9562-e7446c92387e)
 
 This is the output of backend
 
-Backend screenshot output
+Backend screenshot output ikkada
 
 
 *Dataset*
