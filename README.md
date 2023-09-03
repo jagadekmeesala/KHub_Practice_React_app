@@ -58,6 +58,7 @@ Next in the folder named Pages, we have written Home.js and Home.css in Home fol
 
 
 We run the frontend part using the command ``` npm start ``` 
+
 This will be the output that has to be displayed on running the command.
 
 ![WhatsApp Image 2023-09-03 at 15 58 32](https://github.com/jagadekmeesala/KHub_Practice_React_app/assets/85881386/e134f3f5-1608-473a-af4e-a53d14edc9e2)
