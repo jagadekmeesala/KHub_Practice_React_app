@@ -44,7 +44,7 @@ Type ``` cd Frontend ```
 It will navigate to the frontend. Then type ``` npm install ```
 The necessary files and node modules will be installed.
 
-   # Frontned and Backend Installations
+   ### Frontned and Backend Installations
 
 ## Frontend
 Intially we have set up the folder structure as per the requirements
