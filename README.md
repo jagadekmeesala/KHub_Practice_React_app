@@ -12,6 +12,7 @@ Table of Contents
 - Backend
    - Database
    - Dataset
+- Conclusion
 
  ## Procedure
 First and foremost thing is to create 2 folders named *Frontend* and *Backend*
@@ -73,6 +74,15 @@ For backend we have used *MongoDB* as Database and *Pymongo*
 We have written app.py code
 
 App.py screenshot ikkada
+
+
+*Dataset*
+The dataset we have taken is Dukes Students dataset. 
+Welcome to the captivating world of statistical visualization centered around Dukes University, an esteemed institution nestled amidst the enchanting landscapes of North California, USA. This meticulously curated dataset offers a profound glimpse into the lives of students, their academic trajectories, and the intricate facets of their capabilities. At its core, the dataset encompasses pivotal attributes: GPA, study week, sleepnight, outing, and gender.
+
+Incorporating gender into the equation adds a layer of complexity, enabling us to discern potential variations in academic accomplishments. This visualization not only provides insights into students' lives but also underscores the university's commitment to fostering an environment where diverse attributes converge to shape educational experiences.
+
+As the data comes alive through charts and graphs, we gain a holistic comprehension of the students' journey, enriching our perception of the myriad factors that mold their academic voyage at Dukes University.
 
 
 
