@@ -66,11 +66,14 @@ Frontend output screenshot ikkada
 
 
 ## Backend
-For backend we have used *MongoDB* and *Pymongo*
+For backend we have used *MongoDB* as Database and *Pymongo*
 
-Code screenshot ikkada
+![download](https://github.com/jagadekmeesala/KHub_Practice_React_app/assets/85881386/7ae80d46-d0c8-4b5e-b6fe-464e6ff74dc2)                ![download](https://github.com/jagadekmeesala/KHub_Practice_React_app/assets/85881386/e01e51b8-f68d-46de-8afb-58e57a616723)
 
-![download](https://github.com/jagadekmeesala/KHub_Practice_React_app/assets/85881386/7ae80d46-d0c8-4b5e-b6fe-464e6ff74dc2)  ![download](https://github.com/jagadekmeesala/KHub_Practice_React_app/assets/85881386/e01e51b8-f68d-46de-8afb-58e57a616723)
+We have written app.py code
+
+App.py screenshot ikkada
+
 
 
 
