@@ -70,6 +70,10 @@ We have written app.py code
 
 App.py screenshot ikkada
 
+This is the output of backend
+
+Backend screenshot output
+
 
 *Dataset*
 The dataset we have taken is Dukes Students dataset. 
@@ -78,7 +82,6 @@ Welcome to the captivating world of statistical visualization centered around Du
 Incorporating gender into the equation adds a layer of complexity, enabling us to discern potential variations in academic accomplishments. This visualization not only provides insights into students' lives but also underscores the university's commitment to fostering an environment where diverse attributes converge to shape educational experiences.
 
 As the data comes alive through charts and graphs, we gain a holistic comprehension of the students' journey, enriching our perception of the myriad factors that mold their academic voyage at Dukes University.
-
 
 
 
