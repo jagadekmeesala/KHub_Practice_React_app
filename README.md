@@ -1,6 +1,4 @@
  # KHub_Practice_React_app
-*Senior Developer* - Jagadek Meesala
-*Junior Devloper* - Benayaram Rekha
 
 Project title - K-Hub Practice React App
 
@@ -72,6 +70,7 @@ We have written app.py code
 
 ![code](https://github.com/jagadekmeesala/KHub_Practice_React_app/assets/85881386/1176ce44-6ee8-454b-b951-fdba2d654e5f)
 
+Once we run the backend part using command ``` python app.py ```
 ![WhatsApp Image 2023-09-03 at 16 12 25](https://github.com/jagadekmeesala/KHub_Practice_React_app/assets/85881386/db4b7593-5dfb-4a07-9562-e7446c92387e)
 
 This is the output of backend
@@ -79,7 +78,7 @@ This is the output of backend
 Backend screenshot output ikkada
 
 
-*Dataset*
+### *Dataset*
 The dataset we have taken is Dukes Students dataset. 
 Welcome to the captivating world of statistical visualization centered around Dukes University, an esteemed institution nestled amidst the enchanting landscapes of North California, USA. This meticulously curated dataset offers a profound glimpse into the lives of students, their academic trajectories, and the intricate facets of their capabilities. At its core, the dataset encompasses pivotal attributes: GPA, study week, sleepnight, outing, and gender.
 
@@ -87,5 +86,9 @@ Incorporating gender into the equation adds a layer of complexity, enabling us t
 
 As the data comes alive through charts and graphs, we gain a holistic comprehension of the students' journey, enriching our perception of the myriad factors that mold their academic voyage at Dukes University.
 
+## Conclusion
+Performing statistical operations on a dataset and visualising it is an easier form of creating an understanding with the data.
+We have did the same here. Taken a data set and performed statistical operations. Then using visualisations we got a clear understanding of the data.
 
-
+*Senior Developer* - Jagadek Meesala
+*Junior Devloper* - Benayaram Rekha
